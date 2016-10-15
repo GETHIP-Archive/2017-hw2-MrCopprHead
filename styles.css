@@ -1,11 +1,39 @@
+@keyframes backgroundmove{
+  0% {background-color: white;opacity:0;}
+  10% {background-color: papayawhip;}
+  20% {background-color: blanchedalmond;}
+  30% {background-color: mistyrose;opacity:0.5;}
+  40% {background-color: bisque;}
+  50% {background-color: moccasin;}
+  60% {background-color: peachpuff;}
+  70% {background-color: pink;}
+  80% {background-color: lightpink;}
+  90% {background-color: lightsalmon;}
+  100% {background-color: coral; opacity:1;}
+@keyframes color{
+  0% {background-color: coral;}
+  100% {background-color: coral;}
+}
+}
 body{
-@-webkit-keyframes mymove{
-  from {top:0px;}
-  to {top: 200px;}
+  position: absolute;
+  animation-name: backgroundmove;
+  animation-duration: 2.7s;
+  background-color: coral;
 }
-}
-
 h1 {
-  color: navy;
-  margin-left: 250px;
+  color: indigo;
+  text-align: center;
+}
+img {
+  border-style: dashed;
+  border-color: indigo;
+  height: 300px;
+  width: 300px;
+}
+h2{
+  color: indigo;
+}
+u1{
+  color: indigo;
 }
